@@ -3,6 +3,10 @@ personal page for fbrns.co
 
 [fbrns.co](https://fbrns.co/) © 2023 by [Ridho Febriansa](https://github.com/ridhof) is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
 
+References:
+
+- [Tania Rascia](https://www.taniarascia.com/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
