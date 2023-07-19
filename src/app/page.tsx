@@ -1,5 +1,7 @@
+import { Nav } from './components'
+
 export default function Home() {
   return (
-    <main>Hii</main>
+    <Nav />
   )
 }
