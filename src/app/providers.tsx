@@ -1,7 +1,7 @@
 'use client'
 
 import { CacheProvider } from '@chakra-ui/next-js'
-import { ChakraProvider } from '@chakra-ui/react'
+import { Box, ChakraProvider } from '@chakra-ui/react'
 import React from 'react'
 
 export function Providers({
@@ -12,7 +12,9 @@ export function Providers({
     return (
         <CacheProvider>
             <ChakraProvider>
-                {children}
+                <Box bgColor="gray.50">
+                    {children}
+                </Box>
             </ChakraProvider>
         </CacheProvider>
     )
