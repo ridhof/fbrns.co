@@ -5,19 +5,27 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import React from 'react'
 
 export function Nav() {
-    return <Box padding={4}>
-        <Stack direction="row" padding={4}>
+    return <Box backgroundColor='teal'>
+        <Stack 
+            direction="row" 
+            padding={2} 
+        >
             <Center>
                 <Image
                     src="/coffee.svg"
-                    width={40}
-                    height={40}
+                    width={30}
+                    height={30}
                     alt="coffee"
                 />
             </Center>
-            <Heading as='h1' size='lg'>Ridho Febriansa</Heading>
+            <Heading as='h1' size='md'>Ridho Febriansa</Heading>
         </Stack>
-        <Stack direction="row" margin={2} padding={2} gap={6}>
+        <Stack 
+            direction="row" 
+            margin={2} 
+            padding={2} 
+            gap={6} 
+        >
             <Link 
                 href="https://ridho.one"
                 color="gray.600"
