@@ -5,7 +5,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import React from 'react'
 
 export function Nav() {
-    return <Box backgroundColor='teal'>
+    return <Box>
         <Stack 
             direction="row" 
             padding={2} 
