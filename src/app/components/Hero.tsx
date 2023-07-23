@@ -11,7 +11,7 @@ export function Hero() {
                 width='100%'
                 spacing={6}
             >
-                <Heading as='h2' size='2xl'>Hi, it's Ridho!</Heading>
+                <Heading as='h2' size='2xl'>Hi, it&apos;s Ridho!</Heading>
                 <Text fontSize='md'>Welcome to my digital workspace and showroom!</Text>
                 <Text fontSize='md'>
                     Based in Indonesia, I build website to showcase an activity and to help people ease their life.
@@ -35,6 +35,7 @@ export function Hero() {
                         boxSize='300'
                         borderRadius='full'
                         src='/assets/febriansa-logo.png' 
+                        alt='fbrns logo'
                     />
                 </Center>
             </Box>
