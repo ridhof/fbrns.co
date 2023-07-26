@@ -1,10 +1,10 @@
 import { Link } from '@chakra-ui/next-js'
-import { Box, Center, Flex, Heading, Image, Stack, Text } from '@chakra-ui/react'
+import { Box, Center, Flex, Heading, Hide, Image, Stack, Text } from '@chakra-ui/react'
 
 export function Hero() {
-    return <Box>
+    return <Box mt={20} mb={4}>
         <Flex 
-            direction='row'
+            direction={['column', 'row']}
             alignItems='center'
         >
             <Stack 
@@ -12,8 +12,8 @@ export function Hero() {
                 spacing={6}
             >
                 <Heading as='h2' size='2xl'>Hi, it&apos;s Ridho!</Heading>
-                <Text fontSize='md'>Welcome to my digital workspace and showroom!</Text>
-                <Text fontSize='md'>
+                <Text fontSize='lg'>Welcome to my digital workspace and showroom!</Text>
+                <Text fontSize='lg'>
                     Based in Indonesia, I build website to showcase an activity and to help people ease their life.
                     I am influenced by many business, self-help, and fantasy books.
                     I <Link 
@@ -27,18 +27,18 @@ export function Hero() {
                     >write</Link> any of my thought online.
                 </Text>
             </Stack>
-            <Box 
-                width='100%'
-            >
-                <Center>
-                    <Image 
-                        boxSize='300'
-                        borderRadius='full'
-                        src='/assets/febriansa-logo.png' 
-                        alt='fbrns logo'
-                    />
-                </Center>
-            </Box>
+            <Hide below='lg'>
+                <Box width='100%'>
+                    <Center>
+                        <Image 
+                            boxSize='300'
+                            borderRadius='full'
+                            src='/assets/febriansa-logo.png' 
+                            alt='fbrns logo'
+                        />
+                    </Center>
+                </Box>
+            </Hide>
         </Flex>
     </Box>
 }

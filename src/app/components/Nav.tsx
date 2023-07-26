@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Link } from '@chakra-ui/next-js'
-import { Box, Center, Heading, Stack } from '@chakra-ui/react'
+import { Box, Center, Heading, Show, Stack } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import React from 'react'
 
@@ -35,7 +35,7 @@ export function Nav() {
                     textUnderlineOffset: "6px"
                 }}
             >
-                ridho.one <ExternalLinkIcon mx="2px" />
+                ridho.one <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
             <Link 
                 href="https://ridho.one/financial-aid"
@@ -46,7 +46,7 @@ export function Nav() {
                     textUnderlineOffset: "6px"
                 }}
             >
-                Financial Aid <ExternalLinkIcon mx="2px" />
+                Financial Aid <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
             <Link
                 href="https://github.com/ridhof"
@@ -57,7 +57,7 @@ export function Nav() {
                     textUnderlineOffset: "6px"
                 }}
             >
-                GitHub <ExternalLinkIcon mx="2px" />
+                GitHub <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
         </Stack>
     </Box>

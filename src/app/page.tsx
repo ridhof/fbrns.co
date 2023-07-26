@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Center backgroundColor='bisque'>
       <Box 
-        width={{ 'base': '100%', 'md': '80%', 'xl': '70%' }}
+        width={{ 'base': '90%', 'xl': '70%' }}
         py={10}
         px={4}
       >
