@@ -1,6 +1,6 @@
 'use client'
 
-import { Hero, Nav } from './components'
+import { Hero, Nav, Posts } from './components'
 import { Box, Center } from '@chakra-ui/react'
 
 export default function Home() {
@@ -13,6 +13,7 @@ export default function Home() {
       >
         <Nav />
         <Hero />
+        <Posts />
       </Box>
     </Center>
   )
