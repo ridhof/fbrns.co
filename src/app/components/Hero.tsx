@@ -2,7 +2,7 @@ import { Link } from '@chakra-ui/next-js'
 import { Box, Center, Flex, Heading, Hide, Image, Stack, Text } from '@chakra-ui/react'
 
 export function Hero() {
-    return <Box mt={20} mb={4}>
+    return <Box mt={{ base: 12, lg: 20 }} mb={4}>
         <Flex 
             direction={['column', 'row']}
             alignItems='center'
