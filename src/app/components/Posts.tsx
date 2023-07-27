@@ -1,5 +1,5 @@
-import { Link } from '@chakra-ui/next-js'
-import { Box, Center, Flex, Heading, Show, Spacer, Text } from '@chakra-ui/react'
+import NextLink from "next/link"
+import { Box, Center, Flex, Heading, Link, Show, Spacer, Text } from '@chakra-ui/react'
 
 export function Posts() {
     const posts = [
@@ -54,6 +54,7 @@ export function Posts() {
                     posts.map(({ id, title, url, date, view }) => (
                         <Box key={`box-${id}`}>
                             <Link 
+                                as={NextLink}
                                 key={`link-${id}`}
                                 href={url}
                                 isExternal={true}
