@@ -1,3 +1,4 @@
+import { PageLayout } from './components'
 import { Providers } from './providers'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
@@ -23,7 +24,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         <Providers>
-          {children}
+          <PageLayout>
+            {children}
+          </PageLayout>
         </Providers>
       </body>
       <Analytics />
