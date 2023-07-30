@@ -28,20 +28,7 @@ export function Nav() {
         >
             <Link 
                 as={NextLink}
-                href="https://ridho.one"
-                isExternal={true}
-                color="gray.600"
-                _hover={{
-                    textDecoration: "underline",
-                    textDecorationColor: "tomato",
-                    textUnderlineOffset: "6px"
-                }}
-            >
-                ridho.one <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
-            </Link>
-            <Link 
-                as={NextLink}
-                href="https://ridho.one/financial-aid"
+                href="/financial-aid"
                 isExternal={true}
                 color="gray.600"
                 _hover={{
