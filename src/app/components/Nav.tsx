@@ -52,6 +52,19 @@ export function Nav() {
             >
                 GitHub <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
+            <Link
+                as={NextLink}
+                href="/resume"
+                isExternal={true}
+                color="gray.600"
+                _hover={{
+                    textDecoration: "underline",
+                    textDecorationColor: "red",
+                    textUnderlineOffset: "6px"
+                }}
+            >
+                Resume <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
+            </Link>
         </Stack>
     </Box>
 }
