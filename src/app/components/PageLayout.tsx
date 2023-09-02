@@ -15,6 +15,7 @@ export function PageLayout({
             minHeight="100vh" 
             maxWidth="100vw"
             backgroundColor='#edede9'
+            padding={0}
         >
             {
                 pathname === "/finansial" ? children : <Center>

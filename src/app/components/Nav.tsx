@@ -28,7 +28,7 @@ export function Nav() {
         >
             <Link 
                 as={NextLink}
-                href="/financial-aid"
+                href="/finansial"
                 isExternal={true}
                 color="gray.600"
                 _hover={{
@@ -37,7 +37,7 @@ export function Nav() {
                     textUnderlineOffset: "6px"
                 }}
             >
-                Financial Aid <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
+                Bantuan Finansial <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
             <Link
                 as={NextLink}
