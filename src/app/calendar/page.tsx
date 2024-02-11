@@ -26,7 +26,6 @@ export default function Calendar() {
     return (
         <Box marginBottom={8}>
 	    <Cal
-	    	namespace="30min"
 		calLink="ridhof/30min"
 		style={{width:"100%",height:"100%",overflow:"scroll"}}
 		config={{layout: 'month_view'}}
