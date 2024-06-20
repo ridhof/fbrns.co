@@ -6,9 +6,11 @@ export function Footer() {
         <Container my={8} position='absolute' bottom={0} left={0} right={0}>
             <Center >
                 <Stack>
-                    <Center>
+                    {/*
+		    <Center>
                         <Text fontSize='sm'>Made by Ridho Febriansa</Text>
                     </Center>
+		    */}
                     <Stack direction='row'>
                         <Link
                             as={NextLink}

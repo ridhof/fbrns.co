@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Box mb={24}>
       <Hero />
-      <Posts />
+      {/*<Posts />*/}
     </Box>
   )
 }

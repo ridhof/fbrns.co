@@ -18,7 +18,7 @@ export function Nav() {
                     alt="coffee"
                 />
             </Center>
-            <Heading as='h1' size='md'>Ridho Febriansa</Heading>
+            <Heading as='h1' size='md'>fbrns</Heading>
         </Stack>
         <Stack 
             direction="row" 
@@ -41,7 +41,7 @@ export function Nav() {
             </Link>
             <Link
                 as={NextLink}
-                href="https://github.com/ridhof"
+                href="https://chat.fbrns.co"
                 isExternal={true}
                 color="gray.600"
                 _hover={{
@@ -50,11 +50,11 @@ export function Nav() {
                     textUnderlineOffset: "6px"
                 }}
             >
-                GitHub <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
+                XMPP Server <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
             <Link
                 as={NextLink}
-                href="/resume"
+                href="https://conversejs.fbrns.co"
                 isExternal={true}
                 color="gray.600"
                 _hover={{
@@ -63,7 +63,7 @@ export function Nav() {
                     textUnderlineOffset: "6px"
                 }}
             >
-                Resume <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
+                XMPP Client <Show above="sm"><ExternalLinkIcon mx="2px" /></Show>
             </Link>
         </Stack>
     </Box>

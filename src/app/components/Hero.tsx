@@ -11,22 +11,24 @@ export function Hero() {
                 width='100%'
                 spacing={6}
             >
-                <Heading as='h2' size='2xl'>Hi, it&apos;s Ridho!</Heading>
+                {/*<Heading as='h2' size='2xl'>Welcome</Heading>*/}
                 <Text fontSize='lg'>Welcome to my digital workspace and showroom!</Text>
-                <Text fontSize='lg'>
-                    Based in Indonesia, I build website to showcase an activity and to help people ease their life.
-                    I am influenced by many business, self-help, and fantasy books.
-                    I <Link 
-                        href="https://twitter.com/ridhofebriansa"
+                <Text fontSize='lg' textAlign='justify'>
+		    I adore FOSS, and started to self-host some apps for my own.
+		    I believe that my self-hosted apps can benefit many, so I started to invite friend to join me. 
+
+		    If you have question, feel free to contact me through XMPP <Link 
+                        href="xmpp:garage9194@chat.fbrns.co"
                         color="blue.600"
                         textDecoration="underline"
                         textUnderlineOffset="1px"
                         _hover={{
                             textDecoration: "none"
                         }}
-                    >write</Link> any of my thought online.
+                    >garage9194@chat.fbrns.co</Link>.
                 </Text>
             </Stack>
+	    {/*
             <Hide below='lg'>
                 <Box width='100%'>
                     <Center>
@@ -39,6 +41,7 @@ export function Hero() {
                     </Center>
                 </Box>
             </Hide>
+	    */}
         </Flex>
     </Box>
 }
